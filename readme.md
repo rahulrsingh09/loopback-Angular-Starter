@@ -4,7 +4,7 @@ powered by Rahul Singh <rahulrsingh09@gmail.com>
 
 ### To Get your hands dirty directly 
 
-Clone the repository and then do a npm install in the root directory for Loopback and then cd client and npm install for Angular . 
+Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.git> and then do a npm install in the root directory for Loopback and then cd client and npm install for Angular . 
 
 
 * Install Angular-CLI
