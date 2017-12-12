@@ -16,7 +16,7 @@ Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.g
     npm install -g loopback-cli
    ```
 
-
+* The Current setup uses Angular (v5) pentagonal-donut and loopback 3.x
 
 Props to Sirrele Steinfeld and her [Blog](https://www.sirrele.io/blog_post_6_lb_ng.html), from which
 i took guidance to start this Starter Project.
