@@ -32,7 +32,11 @@ For Stuff on Angular Concepts check [this](https://rahulrsingh09.github.io/Angul
 
 ### One step Further than the Blog
 
-* I have made a Middle ware function that intercepts any inceoming requests and if loopback doesnot understand
+* I have written a middle ware function that intercepts any inceoming requests and if loopback doesnot understand
   the request it will redirect it to the Angular index.html which we have build in the first place using ng build in the 
   dist folder of client. So now we can serve the same app using only one server running.
-  
+
+* To test the same, just run the loopback server using ```node . ``` and then in the address bar of the browser write a url which 
+  loopback doesnot understand. like localhost:3000/home and see the magic .
+
+* Pre-requisits . You must have the Angular App pre comipled in the dist Folder (as of now) will try and automate this soon. 
