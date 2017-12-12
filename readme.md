@@ -1,6 +1,6 @@
 # Angular + Loopback Starter
 
-powered by Rahul Singh <rahulrsingh09@gmail.com>
+contributed by Rahul Singh <rahulrsingh09@gmail.com> and also a big shout out to Sirrele Steinfeld <admin@sirrele.io> her blog helped me a lot
 
 ### To Get your hands dirty directly 
 
