@@ -1,5 +1,5 @@
 {
-  "name": "Angular-LoopbackStarter",
+  "name": "loopback3-angular-starter",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
