@@ -18,6 +18,13 @@ Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.g
 
 * The Current setup uses Angular (v5) pentagonal-donut and loopback 3.x
 
+
+### Some General Instructions
+
+* In the Current Set up we are using Angular Cli along with some gulp tasks. 
+
+![Set up description](https://go.gliffy.com/go/html5/launch?templateId=12434781)
+
 Props to Sirrele Steinfeld and her [Blog](https://www.sirrele.io/blog_post_6_lb_ng.html), from which
 i took guidance to start this Starter Project.
 
