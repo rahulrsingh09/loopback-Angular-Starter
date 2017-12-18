@@ -23,7 +23,7 @@ Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.g
 
 * In the Current Set up we are using Angular Cli along with some gulp tasks. 
 
-![Set up description](https://drive.google.com/open?id=1Q4wfTi3QNDqaBmoKRMEYug4ho3V4uHXy)
+![Set up description](https://www.cleverfiles.com/howto/wp-content/uploads/2016/08/mini.jpg)
 <p align="center">
   <img src="your_relative_path_here" width="350"/>
   <img src="your_relative_path_here_number_2_large_name" width="350"/>
