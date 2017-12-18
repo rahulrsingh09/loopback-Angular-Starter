@@ -8,10 +8,14 @@ var nodemon = require('gulp-nodemon');
 var gutil = require('gulp-util');
 var run = require('gulp-run');
 var runSequence = require('run-sequence');
+var basePath = __dirname;
 
 /* Run the npm script npm run buildLsdk using gulp */
 gulp.task('sdk', function() {
-  // process.chdir('server');
+  if (process.cwd() != basePath) {
+    process.chdir('..');
+    // console.log(process.cwd());
+  }
   spawn('./node_modules/.bin/lb-sdk', ['server/server.js', './client/src/app/shared/sdk', '-q'], {stdio: 'inherit'});
 });
 
@@ -30,7 +34,6 @@ gulp.task('angular', function(cb) {
 */
 gulp.task('default', function() {
   runSequence('sdk', 'browser-sync', 'server', 'angular', function() {
-    gulp.watch(['./common/models/*.js'], ['server']);
   });
 });
 
@@ -46,11 +49,17 @@ gulp.task('browser-sync', function() {
     port: 7000,
   });
   gulp.watch(['client/src/app/*.ts'], browserSync.reload);
+  let watcher = gulp.watch(['./common/models/**.js', './server/**.js', 'gulpfile.js'], ['sdk', 'server']);
+  watcher.on('change', function(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  });
 });
 
 gulp.task('server', function() {
-  if (node) node.kill();
-  node = spawn('node', ['server/server.js'], {stdio: 'inherit'});
+  if (node) {
+    node.kill();
+  }
+  node = spawn('node', [basePath + '/server/server.js'], {stdio: 'inherit'});
   node.on('close', function(code) {
     if (code === 8) {
       gulp.log('Error detected, waiting for changes...');
