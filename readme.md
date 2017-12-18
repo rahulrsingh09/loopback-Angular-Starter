@@ -23,7 +23,9 @@ Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.g
 
 * In the Current Set up we are using Angular Cli along with some gulp tasks. 
 
-![Set up description](https://go.gliffy.com/go/html5/launch?templateId=12434781)
+<p align="center">
+  <img src="https://go.gliffy.com/go/html5/launch?templateId=12434781" width="350"/>
+</p>
 
 Props to Sirrele Steinfeld and her [Blog](https://www.sirrele.io/blog_post_6_lb_ng.html), from which
 i took guidance to start this Starter Project.
