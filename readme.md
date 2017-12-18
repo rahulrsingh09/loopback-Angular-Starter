@@ -23,8 +23,10 @@ Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.g
 
 * In the Current Set up we are using Angular Cli along with some gulp tasks. 
 
+![Set up description](https://go.gliffy.com/go/share/s1fg4sqk1kekc3cpolcb)
 <p align="center">
-  <img src="https://go.gliffy.com/go/html5/launch?templateId=12434781" width="350"/>
+  <img src="your_relative_path_here" width="350"/>
+  <img src="your_relative_path_here_number_2_large_name" width="350"/>
 </p>
 
 Props to Sirrele Steinfeld and her [Blog](https://www.sirrele.io/blog_post_6_lb_ng.html), from which
