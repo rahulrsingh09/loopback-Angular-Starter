@@ -4,20 +4,19 @@ var gulp = require('gulp');
 var {spawn} = require('child_process');
 var node;
 var browserSync = require('browser-sync');
-var nodemon = require('gulp-nodemon');
 var gutil = require('gulp-util');
-var run = require('gulp-run');
 var runSequence = require('run-sequence');
 var basePath = __dirname;
 
 /* Run the npm script npm run buildLsdk using gulp */
-gulp.task('sdk', function() {
-  if (process.cwd() != basePath) {
-    process.chdir('..');
-    // console.log(process.cwd());
-  }
-  spawn('./node_modules/.bin/lb-sdk', ['server/server.js', './client/src/app/shared/sdk', '-q'], {stdio: 'inherit'});
-});
+spawn(
+  './node_modules/.bin/lb-sdk',
+  [
+    basePath + '/server/server.js',
+    basePath + '/client/src/app/shared/sdk',
+    '-q'
+  ], {stdio: 'inherit'}
+);
 
 /* Change detection on Angular app and then do npm build */
 var exec = require('child_process').exec;

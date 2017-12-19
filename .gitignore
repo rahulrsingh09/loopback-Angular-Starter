@@ -17,3 +17,7 @@
 coverage
 node_modules
 npm-debug.log
+.repo
+.gitignore
+
+// npm config set prefix C:\Users\Rahul.Singh\AppData\Roaming\nvm\v6.11.3
