@@ -28,7 +28,7 @@ Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.g
 ### How to use the Same
 
 * Just Add any Model in Loopback i:e a representation of the database table you want to expose services for (you can even write your own remote methods or custom methods for that you need to look at Loopback tutorials)
-* A short cut to create model is in server boot folder just put your table and schema details and model is created.
+* A short cut to create model is in server boot with name make-model.js folder just put your table and schema details and model is created.
 * Any change will trigger a Sdk and server restart which will populate the client folder with the required services of Angular 
 * Now reuse the services in Angular and without having to deploy the Api again on a different port all made possible due to ```ng build -w```
 
