@@ -23,7 +23,7 @@ Clone the repository <https://github.com/rahulrsingh09/Angular-LoopbackStarter.g
 
 * In the Current Set up we are using Angular Cli along with some gulp tasks. 
 
-![alt tag](https://drive.google.com/open?id=14vB-lRwrv25jXkby7fwFusZ_JGH9dCXs "The complete flow")
+![alt text](server/sel.png "Description goes here")
 
 Props to Sirrele Steinfeld and her [Blog](https://www.sirrele.io/blog_post_6_lb_ng.html), from which
 i took guidance to start this Starter Project.
