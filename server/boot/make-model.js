@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 const path = require('path');
@@ -31,3 +32,4 @@ ds.discoverModelDefinitions({schema: '<schema-name>'}, function(err, models) {
     });
   });
 });
+*/
