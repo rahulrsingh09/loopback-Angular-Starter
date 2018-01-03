@@ -16,6 +16,9 @@
   "User": {
     "dataSource": "db"
   },
+  "client": {
+    "dataSource": "myRest"
+  },
   "AccessToken": {
     "dataSource": "db",
     "public": false

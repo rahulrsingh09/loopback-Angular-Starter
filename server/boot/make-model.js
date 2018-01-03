@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 const path = require('path');
 const fs = require('fs');
 const loopback = require('loopback');
@@ -31,3 +31,4 @@ ds.discoverModelDefinitions({schema: '<schema-name>'}, function(err, models) {
     });
   });
 });
+*/

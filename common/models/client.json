@@ -1,0 +1,25 @@
+{
+    "name": "client",
+    "base": "PersistedModel",
+    "idInjection":false,
+    "properties": {
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [
+      {
+        "accessType": "EXECUTE",
+        "principalType": "ROLE",
+        "principalId": "$everyone",
+        "permission": "ALLOW",
+        "property": "find"
+      },
+      {
+        "accessType": "READ",
+        "principalType": "ROLE",
+        "principalId": "$everyone",
+        "permission": "ALLOW"
+      }
+    ],
+    "methods": {}
+  }
